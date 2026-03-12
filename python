@@ -1,0 +1,21 @@
+def add(a,b):
+    return (a+b)
+result=add(10,20)
+print(result)
+
+def num(n):
+    if n==0:
+        return
+    print(n)
+    num(n-1)
+num(5)
+
+def num(n):
+    if n==0:
+        return
+    print("2")
+    num(n-1)
+    print("AB")
+    num(n-1)
+num(2)
+
